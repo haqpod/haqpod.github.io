@@ -11,6 +11,13 @@ img {
       clear: both;
   }
 
+  hr{
+    margin: 0px;
+}
+
+a {
+    color: currentColor;
+  }
   
 
 h1{
@@ -32,6 +39,7 @@ h3{
     
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h4{
@@ -46,10 +54,27 @@ p1{
     padding-left: 275px;
     padding-right: 275px;
     display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
 
 p2{
-    margin-top: 200px;
+    font-size: 10px;
+  text-align: center;
+    color: red;
+    padding-left: 275px;
+    padding-right: 275px;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+}
+
+p3{
+    font-size: 8px;
+    display: block;
+    text-align: center;
 }
 
 .block{
@@ -59,11 +84,11 @@ p2{
     width: 22.3%;
     border: 0px solid#ccc;
     box-sizing: border-box;
-    padding-left: 300px;
-   
-    
-    
+    padding-left: 300px;  
+    padding-top: 0px;
+    margin-top: 0px;
 }
+
 
 body{
     background-color: #1f201d;
@@ -80,14 +105,9 @@ body{
 
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+ 
 
-a:hover{
-    color:red;
-}
+ 
 
 
 
@@ -96,35 +116,6 @@ a:hover{
     margin: auto;
 }
 
-.boxOne{
-    background-color: #333;
-    color: rgb(167, 48, 48);
-
-    /*border-right: 10px blue solid;*/
-
-    border: 5px green solid;
-    border-width:10px;
-    padding-top: 40px;
-    margin: 33px;
-    
-}
-
-.boxOne h1{
-    font-family: Tahoma;
-    font-weight: 800;
-    font-style: italic;
-    text-decoration: underline;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    word-spacing: 4em;
-}
-
-.boxTwo{
-    border: 3px dotted#ccc;
-    padding:20px;
-    margin: 20px 0;
-}
-
-.categories h2{
-    text-align: center;
-}
+ 
+ 
+ 
