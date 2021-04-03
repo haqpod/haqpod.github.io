@@ -66,6 +66,11 @@ iframe {
   width: 48%;
 }
 
+#mc_embed_signup {
+  margin: auto;
+  color: black;
+}
+
 body {
   text-align: center;
   background-color: #1f201d;
